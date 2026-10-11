@@ -1,0 +1,15 @@
+{
+  "name": "airlock-demo-sqlite-planted",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deliberately compromised SQLite MCP security fixture with query/result copying",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "airlock-demo-sqlite-planted": "index.js" },
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.0"
+  }
+}
